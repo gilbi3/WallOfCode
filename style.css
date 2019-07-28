@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Play|Raleway:400,800');
+
+.underlayer {
+    width: 100%;
+    height: 100%;
+    background-image: url('codewall.png');
+    filter:blur(2px);
+    position: absolute;
+}
+
+body {
+    background: black;
+}
+
+div#wallofcode {
+    position: relative;
+}
+
+.container {
+    background: black;
+}
+
+
+h1#title{
+    background-image: url('codewall.png');
+    filter: contrast(150%);
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+    width: 99.5%;
+    margin: auto;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p.title-verbiage {
+    margin: 0;
+    background: black;
+    width: 225px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+table{
+    height: 2000px;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.jumbotron {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.headline {
+    font-family: 'Play', sans-serif;
+}
+
+.thumbnail {
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+.vertical-stack {
+    display: block;
+    margin: auto;
+    border: solid 4px darkcyan;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+div.caption > h3 {
+    color: white;
+}
+
+.darkcyan{
+    background-color: darkcyan;
+}
+
+.big-icon {
+    width: 80%;
+}
+
+.icon-header {
+    max-width: 280px;
+    height: 280px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    color: gray;
+}
+
+.icon-header > h2 {
+    margin: auto;
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.grow:hover
+{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+
+   
+}
+
+.shrink:hover {
+    background: black;
+}
+
+.shrinkleft:hover {
+    background: black;
+    -webkit-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-20deg);
+    transform: rotateZ(-20deg);
+}
+
+.shrinkright:hover {
+    background: black;
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+}
